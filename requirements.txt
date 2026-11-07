@@ -1,0 +1,8 @@
+# VYRXONE Sentinel V5 - runtime dependencies (versions below are the ones the test suite was run with).
+# Python 3.11 or 3.12 recommended (3.10-3.14 are supported by every dependency listed here).
+PySide6-Essentials==6.12.0
+psutil==7.2.2
+watchdog==6.0.0
+# Optional, Windows only: lets the AI Assistant keep API keys in the Windows Credential Manager.
+# Sentinel starts and works without it (AI keys then have to come from an environment variable).
+keyring==25.7.0; sys_platform == "win32"

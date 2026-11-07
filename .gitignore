@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.venv-build/
+venv/
+*.egg-info/
+
+# Build output
+build/
+dist/
+*.spec
+
+# Local user data must never be committed or shipped
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.bak
+logs/
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
